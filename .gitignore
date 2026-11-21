@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/
+*.db
+*.pdf
+*.docx
+!backend/tests/fixtures/*.keep
+node_modules/
+dist/
+.jwt_secret
+*.db-shm
+*.db-wal
+eval/gold/*.jsonl
+eval/results/
